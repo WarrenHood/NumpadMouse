@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Screna.MouseKeyHook</name>
+    </assembly>
+    <members>
+        <member name="T:Screna.MouseKeyHook">
+            <summary>
+            Draws Mouse Clicks and/or Keystrokes on an Image.
+            </summary>
+        </member>
+        <member name="P:Screna.MouseKeyHook.ClickBrush">
+            <summary>
+            Gets or Sets the <see cref="T:System.Drawing.Brush"/> used to fill Click circles.
+            </summary>
+        </member>
+        <member name="P:Screna.MouseKeyHook.ClickRadius">
+            <summary>
+            Gets or Sets the radius of Click circles.
+            </summary>
+        </member>
+        <member name="P:Screna.MouseKeyHook.KeyStrokeFont">
+            <summary>
+            Gets or Sets the Keystroke <see cref="T:System.Drawing.Font"/>.
+            </summary>
+        </member>
+        <member name="P:Screna.MouseKeyHook.KeyStrokeBrush">
+            <summary>
+            Gets or Sets the Keystroke <see cref="T:System.Drawing.Brush"/>.
+            </summary>
+        </member>
+        <member name="P:Screna.MouseKeyHook.KeyStrokeLocation">
+            <summary>
+            Gets or Sets the Keystroke Location.
+            </summary>
+        </member>
+        <member name="M:Screna.MouseKeyHook.#ctor(System.Boolean,System.Boolean)">
+            <summary>
+            Creates a new instance of <see cref="T:Screna.MouseKeyHook"/>.
+            </summary>
+            <param name="CaptureMouseClicks">Whether to capture Mouse CLicks.</param>
+            <param name="CaptureKeystrokes">Whether to capture Keystrokes.</param>
+        </member>
+        <member name="M:Screna.MouseKeyHook.Draw(System.Drawing.Graphics,System.Drawing.Point)">
+            <summary>
+            Draws overlay.
+            </summary>
+        </member>
+        <member name="M:Screna.MouseKeyHook.Dispose">
+            <summary>
+            Frees all resources used by this object.
+            </summary>
+        </member>
+    </members>
+</doc>
